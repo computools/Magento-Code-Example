@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+ <config>
+   <modules>
+     <CRW_Auth>
+     <version>0.1.0</version>
+     </CRW_Auth>
+   </modules>
+  <frontend>
+    <routers>
+        <customer>
+            <args>
+                <modules>
+                    <CRW_Auth before="Mage_Customer">CRW_Auth</CRW_Auth>
+                </modules>
+            </args>
+        </customer>
+    </routers>
+  </frontend>
+</config>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<CRW_Auth>
+			<active>true</active>
+			<codePool>local</codePool>
+		</CRW_Auth>
+	</modules>
+</config>

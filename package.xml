@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>CRW_Auth</name>
+    <version>1.0.0</version>
+    <stability>beta</stability>
+    <license>OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Aproove user module</summary>
+    <description>Module extends Core_Account_Controller</description>
+    <notes>Special for CRW theme</notes>
+    <authors><author><name>Computools</name><user>admin</user><email>dmitriy.asaulenko@computools.com</email></author></authors>
+    <date>2016-05-23</date>
+    <time>09:15:20</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="CRW_Auth.xml" hash="1a4ee46795c769e8c60403bff87d6d6c"/></dir></target><target name="magelocal"><dir name="CRW"><dir name="Auth"><dir name="controllers"><file name="AccountController.php" hash="9896cefe2054fa42ec4f376b5960a405"/></dir><dir name="etc"><file name="config.xml" hash="985fce4d0799d509e0e2c6b37c1efcbb"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.1</min><max>5.6.0</max></php></required></dependencies>
+</package>
